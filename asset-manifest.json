@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.445c8200.css",
+    "main.js": "/static/js/main.9309db1c.js",
+    "static/media/RoboTapping.jpg": "/static/media/RoboTapping.5e8adf32eeb4a0ef9961.jpg",
+    "static/media/YuenLongPublicSecondarySchoolIcon.png": "/static/media/YuenLongPublicSecondarySchoolIcon.b823fda230030810dcbc.png",
+    "static/media/CIC_Award.png": "/static/media/CIC_Award.65dba26c221124f74682.png",
+    "static/media/ChaiWanGovernmentLogisticCenterIcon.png": "/static/media/ChaiWanGovernmentLogisticCenterIcon.80704434370c10ee5e3f.png",
+    "static/media/Jimmy.png": "/static/media/Jimmy.063101b08d97e0b061aa.png",
+    "static/media/c3-logo.svg": "/static/media/c3-logo.104df186822a6761e2aab2af6e45b164.svg",
+    "static/media/Eric.png": "/static/media/Eric.1123964998158c0aad3c.png",
+    "static/media/CIC_Award(2).png": "/static/media/CIC_Award(2).dbbd787e9ef5d0fb943b.png",
+    "static/media/RoboTapper1.0.jpg": "/static/media/RoboTapper1.0.79a131c203d772915348.jpg",
+    "static/media/Anthony.png": "/static/media/Anthony.18798e40569c83e33637.png",
+    "static/media/topView.jpg": "/static/media/topView.a4fda84293806db94971.jpg",
+    "static/media/TsengChoiStreetCommunityHallIcon.jpg": "/static/media/TsengChoiStreetCommunityHallIcon.73ed6df1535b74e95cac.jpg",
+    "static/media/ElectricalRoadIcon.jpg": "/static/media/ElectricalRoadIcon.4cf9f3122a1e48e38d5c.jpg",
+    "static/media/RoboTapper1.5.jpg": "/static/media/RoboTapper1.5.0d7114f123f6cbe95e38.jpg",
+    "static/media/ChaiWanSwimmingPoolIcon.png": "/static/media/ChaiWanSwimmingPoolIcon.f6602b0be33b085481b1.png",
+    "static/media/CityHallIcon.png": "/static/media/CityHallIcon.b05106eab6eb20eea072.png",
+    "static/media/RoboTapperPrototype.png": "/static/media/RoboTapperPrototype.2e1b76d1829c6d36da50.png",
+    "static/media/OldBaileyStreetPoliceMarriedQuartersIcon.png": "/static/media/OldBaileyStreetPoliceMarriedQuartersIcon.68801360cadacb758dc6.png",
+    "static/media/Darwin.png": "/static/media/Darwin.1227b58b407db218f955.png",
+    "static/media/KwunTongLivenHouseIcon.jpg": "/static/media/KwunTongLivenHouseIcon.3eb6a75b8de8c33df394.jpg",
+    "static/media/HKSquashCentreIcon.png": "/static/media/HKSquashCentreIcon.324e14e1a123a98babc0.png",
+    "static/media/ChiuLutSauSecondarySchoolIcon.png": "/static/media/ChiuLutSauSecondarySchoolIcon.11ebe970501347091a73.png",
+    "static/media/TangSiuKinGovernmentSecondarySchoolIcon.png": "/static/media/TangSiuKinGovernmentSecondarySchoolIcon.78dc93e51d884c0a514f.png",
+    "static/media/TaiPoMarineOfficeIcon.png": "/static/media/TaiPoMarineOfficeIcon.93c698186973b46b7271.png",
+    "static/media/Analysis.jpg": "/static/media/Analysis.084e044c99cf66a166b4.jpg",
+    "index.html": "/index.html",
+    "main.445c8200.css.map": "/static/css/main.445c8200.css.map",
+    "main.9309db1c.js.map": "/static/js/main.9309db1c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.445c8200.css",
+    "static/js/main.9309db1c.js"
+  ]
+}
