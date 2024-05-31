@@ -1,0 +1,99 @@
+.darkMode{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.darkModeSwitch {
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.darkModeIcon {
+    transform: translate(0px, 3px) scale(0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1c2135;
+
+}
+
+.lightModeIcon {
+    transform: translate(-0.1px, 3px) scale(0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1c2135;
+
+}
+
+/*
+.dark_mode {
+    margin-top: -20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dark_mode_label {
+    width: 65px;
+    height: 30px;
+    position: relative;
+    display: block;
+    background: var(--body_color);
+    border-radius: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.dark_mode_label:after {
+    content: "";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    background: #d8cd80;
+    box-shadow: #242424;
+    border-radius: 180px;
+    transition: 0.3s;
+}
+.dark_mode_input {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+.dark_mode_input:checked + .dark_mode_label {
+    background: var(--body_color);
+}
+.dark_mode_input:checked + .dark_mode_label:after {
+    left: 62px;
+    transform: translateX(-100%);
+    background: #d8cd80;
+}
+.dark_mode_label:active:after {
+    width: 30px;
+}
+
+.dark_mode_label svg {
+    position: absolute;
+    width: 20px;
+    top: 5px;
+    z-index: 100;
+}
+.dark_mode_label svg.sun {
+    left: 40px;
+    fill: #8794c0;
+    transition: 0.3s;
+}
+.dark_mode_label svg.moon {
+    left: 5px;
+    fill: #1c2135;
+    transition: 0.3s;
+}
+.dark_mode_input:checked + .dark_mode_label svg.sun {
+    fill: #1c2135;
+}
+.dark_mode_input:checked + .dark_mode_label svg.moon {
+    fill: #8794c0;
+}
+
+*/

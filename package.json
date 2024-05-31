@@ -1,0 +1,55 @@
+{
+  "name": "c3roboticshk.github.io",
+  "homepage": "https://c3roboticshk.github.io/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/material": "^5.11.9",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "framer-motion": "^9.0.2",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.1",
+    "react-dom": "^18.2.0",
+    "react-intersection-observer": "^9.4.2",
+    "react-markdown": "^8.0.5",
+    "react-native": "^0.71.3",
+    "react-native-web": "^0.18.12",
+    "react-router-dom": "^6.8.1",
+    "react-scripts": "5.0.1",
+    "react-svg": "^16.1.1",
+    "react-switch": "^7.0.0",
+    "react-vertical-timeline-component": "^3.6.0",
+    "styled-components": "^5.3.6",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

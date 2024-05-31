@@ -1,0 +1,43 @@
+:root{
+  --body_background: #1c2135;
+  --body_color: #e7e9ee;
+  --body_background_rgb: 28, 33, 53;
+  --body_color_rgb: 231,233,238;
+  --navbar_background: #101320;
+  --navbar_color: #e7e9ee;
+
+  --darknavy_color: #101320;
+  --navy_color: #1c2135;
+  --purple_color: #8794c0;
+  --yellow_color: #ADA78A;
+  --white_color: #e7e9ee;
+}
+
+[data-theme = "light"]{
+  --body_background: #e7e9ee;
+  --body_color: #1c2135;
+  --body_background_rgb: 231,233,238;
+  --body_color_rgb: 28, 33, 53;
+  --navbar_background: whitesmoke;
+  --navbar_color: #1c2135;
+}
+
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+.App {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--body_background);
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+}

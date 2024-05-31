@@ -1,0 +1,42 @@
+.home {
+  width: 100%;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+}
+
+.introduction {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--body_background);
+  color: var(--body_color);
+}
+
+.promptDiscription{
+  padding: 50px;
+  margin: 50px;
+}
+
+.prompt {
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  text-align: justify;
+  margin: 20px;
+}
+
+.prompt img {
+  max-width:400px; /* or whatever width you want. */
+  max-height:400px; /* or whatever width you want. */
+  margin: 25px;
+  color: var(--navbar_color);
+}
+
+hr.roundedDivLine {
+  border-top: 3px solid var(--yellow_color);
+  border-radius: 5px;
+  width: 90%;
+}

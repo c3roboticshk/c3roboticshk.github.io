@@ -1,0 +1,18 @@
+.go_Back {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 10px;
+  }
+  .go_Back button {
+    background-color: transparent;
+    border: none;
+    color: var(--navbar_color);
+    cursor: pointer;
+  }
+  .go_Back svg {
+    font-size: 50px;
+  }
