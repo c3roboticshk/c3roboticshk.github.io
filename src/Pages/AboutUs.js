@@ -5,56 +5,17 @@ import { FounderList } from '../UserData/FounderList';
 import { ManagementTeamList } from '../UserData/ManagementTeamList';
 import { motion } from 'framer-motion';
 
-import DarwinImage from "../Assets/AboutUs/Darwin.png";
 import CICAward1 from "../Assets/Awards/CIC_Award.png"
 import CICAward2 from "../Assets/Awards/CIC_Award(2).png"
 
 function AboutUs() {
     return (
         <div>
-            <motion.div
-                className="projects"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-            >
+            <motion.div className="projects">
                 <div className="aboutUsList">
-                    <p>Founder and Advisors</p>
+                    <p>Founders and Advisors</p>
                     <p></p>
                     <p></p>
-
-                    <motion.div className="AboutUsListItem"
-                        style={{
-                            borderRadius: '25px',
-                            width: '300px',
-                            height: '300px',
-                            margin: '10px',
-                            padding: '20px',
-                            backgroundColor: '#ffffff',
-                            boxShadow: '0px 3px 15px rgba(0, 0, 0, 0.2)',
-                        }}
-                        onClick={() => { }}
-                        whileHover={{ scale: 1.05, transition: { duration: 0.01, ease: "easeInOut" } }}
-                        initial={{ x: 1000, opacity: 0 }}
-                        animate={{ x: 0, opacity: 1 }}
-                        transition={{ duration: 0.5, delay: 1 * 0.2 }}
-                    >
-                        <div style={{
-                            backgroundImage: `url(${DarwinImage})`,
-                            margin: '10px',
-                            borderRadius: '70px',
-                            width: '300px',
-                            height: '300px'
-                        }} className="bgImage">
-                        </div>
-                        <div className="info">
-                            <p className="name" style={{ color: '#000000', }}>{"Prof. Darwin Tat Ming LAU 劉達銘​"}</p>
-                            <div className="bottomRow" >
-                                <p className="description" style={{ color: '#000000', fontSize: '18px', textAlign: 'center' }}>CUHK Associate Professor, Dept of Mechanical and Automation Engineering</p>
-                                <p className="description" style={{ color: '#000000', fontSize: '18px', textAlign: 'center' }}>CUHK Assistant Dean</p>
-                            </div>
-                        </div>
-                    </motion.div>
 
                     {FounderList.map((project, index) => {
                         return (<AboutUsItem

@@ -49,9 +49,6 @@
     justify-content: space-between;
     align-items: center;
   }
-  .InspectionSitesItem:hover {
-    cursor: pointer;
-  }
   .InspectionSitesItem .bgImage {
     border-bottom: transparent 1px solid;
     border-top-left-radius: 15px;
@@ -65,21 +62,7 @@
     justify-content: center;
     align-items: center;
   } 
-  .InspectionSitesItem .bgImage span{
-    border-bottom: transparent 2px solid;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    width: 100%;
-    height: 100%;
-    font-size: 20px;
-    color: var(--body_color);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--body_background);
-    opacity: 0.9;
-  }
+
 
   .InspectionSitesItem .bgImage p {
     font-size: 14px;

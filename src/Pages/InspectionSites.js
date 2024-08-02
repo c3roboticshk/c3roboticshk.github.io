@@ -7,13 +7,9 @@ import { motion } from 'framer-motion';
 function InspectionSites() {
     return (
         <motion.div
-            className="projects"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-        >
+            className="projects">
             <div className="projectsHeader">
-                <h1>Sites that have been done</h1>
+                <h1>Inspected Sites</h1>
             </div>
             <div className="projectList">
                 {ProjectList.map((project, index) => {
@@ -22,7 +18,6 @@ function InspectionSites() {
                         name={project.name}
                         image={project.image}
                         date={project.date}
-                        description={project.description}
                     />);
                 })}
             </div>

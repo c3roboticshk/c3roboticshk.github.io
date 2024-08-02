@@ -49,12 +49,12 @@ function Home() {
               fontSize: '36px',
               color: '#ADA78A',
               textShadow: '1px 1px 1px #000000',
-            }}>Artificial Intelligence Analysing</h2>
+            }}>Artificial Intelligence Analysis</h2>
             <p style={{
               fontSize: '24px',
               color: 'var(--body_color)',
             }}>
-              Analyse inspection result using Artificial Intelligence (AI), automatically generate the report of inspection result
+              Analyse sound data using Artificial Intelligence (AI), automatically generating the report of inspection result
             </p>
           </div>
 

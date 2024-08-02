@@ -19,7 +19,7 @@ export const ProjectList = [
         name: "Kwun Tong Liven House",
         date: "2021",
         image: KwunTongLivenHouseIcon,
-        description: "Kwun Tong Liven House",
+        description: "",
         details: "",
     },
     {

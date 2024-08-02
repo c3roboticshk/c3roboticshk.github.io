@@ -1,11 +1,8 @@
 
 import React from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import MenuIcon from "@material-ui/icons/Reorder";
 
 import "../Styles/Navbar.css";
-import DarkMode from "./DarkMode";
-import GoBack from "./GoBack";
 
 import c3logo from "../Assets/c3-logo.svg";
 
@@ -65,7 +62,6 @@ export default function Navbar() {
     return (
         <div className="navbar" id={expandNavbar ? "open" : "close"}>
             <div className="left">
-                <GoBack />
                 <img src={c3logo} alt="c3logo" />
             </div>
             <div className="middle">
@@ -87,19 +83,6 @@ export default function Navbar() {
                 </div>
 
             </div>
-            <div className="right">
-                <DarkMode />
-                <div className="dropdownButton">
-                    <button
-                        onClick={() => {
-                            setExpandNavbar((prev) => !prev);
-                        }}
-                    >
-                        <MenuIcon />
-                    </button>
-                </div>
-            </div>
-
         </div>
     );
 }

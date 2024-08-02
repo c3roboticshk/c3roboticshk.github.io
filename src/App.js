@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router} from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import ScrollToTop from './Components/ScrollToTop';
@@ -17,16 +17,16 @@ function App() {
   };
 
   return (
-    <ThemeContext.Provider value={{theme, toggleTheme}}>
-    <div className="App" id={theme}>
-      <Router>
-        <ScrollToTop />
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      <div className="App" id={theme}>
+        <Router>
+          <ScrollToTop />
           <Navbar />
-            <AnimatedRoutes/>
+          <AnimatedRoutes />
           <Footer />
-      </Router>
-    </div>
+        </Router>
+      </div>
     </ThemeContext.Provider>
-    );
+  );
 }
 export default App;

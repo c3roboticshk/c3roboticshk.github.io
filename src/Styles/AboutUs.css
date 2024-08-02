@@ -33,7 +33,7 @@
   .aboutUsList p {
     align-items: center;
     color: var(--body_color);
-    font-size: 36px;
+    font-size: 40px;
   }
   
   /* MENU ITEM STYLING */
@@ -51,9 +51,7 @@
     justify-content: space-between;
     align-items: center;
   }
-  .AboutUsListItem:hover {
-    cursor: pointer;
-  }
+
   .AboutUsListItem .bgImage {
     margin: 10px;
     border-radius: 75px;

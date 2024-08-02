@@ -41,7 +41,7 @@ export const TimelineList = [
         icon: <CheckBoxOutlineBlank />,
         timelineName: "RoboTapper 2.0",
         date: "2025",
-        introduction: "Rooftop-Friendly, Logistic-Friendly, increase service capacity",
+        introduction: "Rooftop-friendly, logistic-friendly, increase in service capacity",
         descriptions: ["",],
         photos: []
     },
@@ -50,7 +50,7 @@ export const TimelineList = [
         icon: <CheckBoxOutlineBlank />,
         timelineName: "RoboTapper 3.0",
         date: "2026",
-        introduction: "Surface-Friendly,  Compatible to positions under canopies",
+        introduction: "Surface-friendly, compatible to positions under canopies",
         descriptions: ["",],
         photos: []
     }
