@@ -13,7 +13,6 @@ import AnalysisGraph from "../Assets/Product/Analysis.jpg"
 function Home() {
   return (
     <div>
-      <img src={TopView} style={{ maxHeight: '600px', width: '100%', opacity: '20%' }} />
 
       <div className="introduction">
         <div className="prompt">

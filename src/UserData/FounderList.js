@@ -8,7 +8,7 @@ export const FounderList = [
         name: "Prof. Darwin Tat Ming LAU 劉達銘​",
         image: DarwinImage,
         description: [
-            "Assistant Dean", "Associate Professor, Department of Mechanical and Automation Engineering", "CUHK"],
+            "Assistant Dean, Faculty of Engineering", "Associate Professor, Department of Mechanical and Automation Engineering", "CUHK"],
     },
     {
         name: "Prof. Jimmy Ho Man LEE  李浩文​",

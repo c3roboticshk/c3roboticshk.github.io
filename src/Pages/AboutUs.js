@@ -10,13 +10,10 @@ import CICAward2 from "../Assets/Awards/CIC_Award(2).png"
 
 function AboutUs() {
     return (
-        <div>
+        <div className='aboutUsPage'>
+            <p style={{ display: 'flex', justifyContent: 'center', color: 'white', fontSize: '40px' }}>Founders and Advisors</p>
             <motion.div className="projects">
                 <div className="aboutUsList">
-                    <p>Founders and Advisors</p>
-                    <p></p>
-                    <p></p>
-
                     {FounderList.map((project, index) => {
                         return (<AboutUsItem
                             id={index}
@@ -25,9 +22,9 @@ function AboutUs() {
                             description={project.description}
                         />);
                     })}
-                    <p>Management and Engineering Team</p>
-                    <p></p>
-                    <p></p>
+                </div>
+                <p style={{ display: 'flex', justifyContent: 'center', color: 'white', fontSize: '40px' }}>Management Team</p>
+                <div className="aboutUsList">
                     {ManagementTeamList.map((project, index) => {
                         return (<AboutUsItem
                             id={index}
@@ -37,8 +34,6 @@ function AboutUs() {
                             description={project.description}
                         />);
                     })}
-                    <p></p>
-                    <p></p>
                 </div>
 
             </motion.div >
@@ -58,7 +53,7 @@ function AboutUs() {
                 </div>
 
             </div>
-        </div>
+        </div >
     );
 }
 

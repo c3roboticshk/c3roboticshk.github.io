@@ -14,7 +14,7 @@ function Footer() {
         <Link href={`mailto:${"info@c3robotics.com.hk"}?subject=${encodeURIComponent("") || ''}&body=${encodeURIComponent("body") || ''}`} target="_blank" rel="noopener noreferrer"> <GmailIcon /> </Link>
       </div>
       <p> Contact: info@c3robotics.com.hk | Location: Hong Kong</p>
-      <p> &copy; 2023 C3 Construction Robotics Limited</p>
+      <p> &copy; 2024 C3 Construction Robotics Limited</p>
     </div>
   );
 }
