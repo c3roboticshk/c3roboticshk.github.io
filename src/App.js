@@ -1,32 +1,38 @@
-import React from 'react';
 import './App.css';
-import {BrowserRouter as Router} from 'react-router-dom';
-import Navbar from "./Components/Navbar";
-import Footer from "./Components/Footer";
-import ScrollToTop from './Components/ScrollToTop';
-import AnimatedRoutes from './Components/AnimatedRoutes';
 
+import { useState, useEffect } from 'react';
 
-export const ThemeContext = React.createContext(null);
+import TopBar from './components/TopBar';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import Products from './pages/Products';
+import Cases from './pages/Cases';
+import AboutUs from './pages/AboutUs';
+
+import RoboTapper from './pages/RoboTapper';
+import RoboPainter from "./pages/RoboPainter";
 
 function App() {
+    const [currPage, setCurrPage] = useState('Home');
 
-  const [theme, setTheme] = React.useState("light");
-  const toggleTheme = () => {
-    theme === "light" ? setTheme("dark") : setTheme("light")
-  };
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scroll to the top of the page
+    }, [currPage]);
 
-  return (
-    <ThemeContext.Provider value={{theme, toggleTheme}}>
-    <div className="App" id={theme}>
-      <Router>
-        <ScrollToTop />
-          <Navbar />
-            <AnimatedRoutes/>
-          <Footer />
-      </Router>
-    </div>
-    </ThemeContext.Provider>
+    return (
+        <div className="App">
+            <TopBar setCurrPage={setCurrPage}/>
+
+            {currPage === 'Home' ? <Home/> : null}
+            {currPage === 'Products' ? <Products setCurrPage={setCurrPage}/> : null}
+            {currPage === 'Our Cases' ? <Cases /> : null}
+            {currPage === 'About Us' ? <AboutUs /> : null}
+            {currPage === 'RoboTapper' ? <RoboTapper setCurrPage={setCurrPage}/> : null}
+            {currPage === 'RoboPainter' ? <RoboPainter/> : null}
+
+            <Footer />
+        </div>
     );
 }
+
 export default App;
