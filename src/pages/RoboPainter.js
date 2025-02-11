@@ -4,7 +4,7 @@ import Box from "@mui/material/Box";
 import { styled } from "@mui/material/styles";
 import { List, ListItem, ListItemText } from "@mui/material";
 
-import RoboPainterImg from "../images/painterPage/roboPainter.png";
+import RoboPainterImg from "../images/productsPage/product2.png";
 
 import highlights from "../data/painterPageHighlights";
 import painterCases from "../data/painterPageCases";

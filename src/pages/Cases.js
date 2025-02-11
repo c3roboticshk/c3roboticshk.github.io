@@ -110,18 +110,19 @@ function Cases() {
                                 justifyContent: 'center',
                                 flexDirection: 'column',
                                 width: '500px',
-                                height: '450px',
+                                height: '350px',
                                 bgcolor: 'grey.200',
                                 borderRadius: '10px',
-                                overflow: 'hidden'
+                                overflow: 'hidden',
+                                paddingTop: '1rem'
                             }}
                         >
                             <img
                                 src={c.image}
                                 alt=""
                                 style={{
-                                    height: '400px',
-                                    width: '100%',
+                                    height: '300px',
+                                    width: '350px'
                                 }}
                             />
                             <Typography

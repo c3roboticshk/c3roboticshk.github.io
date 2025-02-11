@@ -15,6 +15,34 @@ import YuanLongSchool from "../images/casesPage/yuan_long_school.png";
 
 const tapperCases = [
     {
+        location: "Pok Fu Lam Fire Station Officers Married Quarters",
+        image: PokFuLam
+    },
+    {
+        location: "Hong Kong City Hall",
+        image: CityHall
+    },
+    {
+        location: "Tsing Yi Station Car Park",
+        image: MTR
+    },
+    {
+        location: "Tseng Choi Street Community Hall",
+        image: TsengChoiStreet
+    },
+    {
+        location: "Electric Road Market and Cooked Food Centre",
+        image: ElectricRoad
+    },
+    {
+        location: "Chai Wan Government Logistic Centre",
+        image: LogisticCentre
+    },
+    {
+        location: "Yuan Long Public Secondary School",
+        image: YuanLongSchool
+    },
+    {
         location: "Kwun Tong Liven House",
         image: LivenHouse
     },
@@ -41,34 +69,6 @@ const tapperCases = [
     {
         location: "Chai Wan Swimming Pool",
         image: SwimmingPool
-    },
-    {
-        location: "Pok Fu Lam Fire Station Officers Married Quarters",
-        image: PokFuLam
-    },
-    {
-        location: "Hong Kong City Hall",
-        image: CityHall
-    },
-    {
-        location: "Tsing Yi MRT",
-        image: MTR
-    },
-    {
-        location: "Tseng Choi Street Community Hall",
-        image: TsengChoiStreet
-    },
-    {
-        location: "Electric Road Market and Cooked Food Centre",
-        image: ElectricRoad
-    },
-    {
-        location: "Chai Wan Government Logistic Centre",
-        image: LogisticCentre
-    },
-    {
-        location: "Yuan Long Public Secondary School",
-        image: YuanLongSchool
     }
 ];
 
