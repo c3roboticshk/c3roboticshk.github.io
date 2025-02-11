@@ -45,7 +45,7 @@ function Home() {
                         flexDirection: 'column',
                         alignItems: 'center',
                         justifyContent: 'center',
-                        height: '40%',
+                        height: '40vh',
                         '@media (min-aspect-ratio: 1/1)': {
                             height: '90vh', // Height for when window width >= window height
                         },
