@@ -1,6 +1,6 @@
 {
-  "short_name": "Self Webpage",
-  "name": "Alexkkm WebPage",
+  "short_name": "C3 webpage",
+  "name": "C3 Construction Robotics webpage",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,9 +8,14 @@
       "type": "image/x-icon"
     },
     {
-      "src": "c3-logo.png",
+      "src": "logo192.png",
       "type": "image/png",
       "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
   "start_url": ".",
