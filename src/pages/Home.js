@@ -1,3 +1,5 @@
+import { useRef } from "react";
+
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
@@ -9,13 +11,12 @@ import PaintingIntro from "../components/PaintingIntro";
 
 function Home() {
     const isMobile = useMediaQuery('(max-aspect-ratio: 1/1)');
-
+    const inspectionRef = useRef(null);
 
     function scrollDown() {
-        window.scrollTo({
-            top: window.innerHeight,
-            behavior: 'smooth'
-        });
+        if(inspectionRef.current){
+            inspectionRef.current.scrollIntoView({behavior: 'smooth', block: "start"});
+        }
     }
 
     return (
@@ -85,7 +86,7 @@ function Home() {
                 </Container>
             </Container>
 
-            <InspectionIntro />
+            <InspectionIntro inspectionRef={inspectionRef} />
 
             <PaintingIntro />
         </>

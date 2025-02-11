@@ -24,9 +24,12 @@ const OverlinedSpan = styled('span')(({ theme }) => ({
     },
 }));
 
-function InspectionIntro() {
+function InspectionIntro(props) {
+    const inspectionRef = props.inspectionRef;
+
     return (
         <Box
+            ref={inspectionRef}
             sx={{
                 display: 'flex',
                 alignItems: 'center',
