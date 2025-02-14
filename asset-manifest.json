@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5eb5c36f.css",
-    "main.js": "/static/js/main.60a8829d.js",
+    "main.js": "/static/js/main.5973c655.js",
     "static/js/453.e214979b.chunk.js": "/static/js/453.e214979b.chunk.js",
     "static/media/inspection.png": "/static/media/inspection.d8caa3e9360f80153899.png",
     "static/media/tseng_choi_street.png": "/static/media/tseng_choi_street.bb6ce3e318db686b6011.png",
@@ -17,9 +17,9 @@
     "static/media/painter.jpeg": "/static/media/painter.83a646f79951b281baff.jpeg",
     "static/media/analysis.png": "/static/media/analysis.5e91a124447242b169db.png",
     "static/media/mtr.png": "/static/media/mtr.feefd7ec86df0ffaa22c.png",
+    "static/media/product1.png": "/static/media/product1.002f872e37c3906c31d9.png",
     "static/media/logo.png": "/static/media/logo.9ab9cc8d4f5182fb9eef.png",
-    "static/media/product2.png": "/static/media/product2.b2c97f4e0deb01a80aef.png",
-    "static/media/product1.png": "/static/media/product1.97cec1f01a4af67befbf.png",
+    "static/media/product2.jpg": "/static/media/product2.5c92c748ed25eceba891.jpg",
     "static/media/pok_fu_lam.png": "/static/media/pok_fu_lam.5fbfcf5e7f05119663dc.png",
     "static/media/darwin.png": "/static/media/darwin.785790c55a105d55b57f.png",
     "static/media/jimmy.png": "/static/media/jimmy.f9e110ae29f6b9c90b4f.png",
@@ -37,11 +37,11 @@
     "static/media/painter_icon.png": "/static/media/painter_icon.d605a22d2ec90fd23fa9.png",
     "index.html": "/index.html",
     "main.5eb5c36f.css.map": "/static/css/main.5eb5c36f.css.map",
-    "main.60a8829d.js.map": "/static/js/main.60a8829d.js.map",
+    "main.5973c655.js.map": "/static/js/main.5973c655.js.map",
     "453.e214979b.chunk.js.map": "/static/js/453.e214979b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5eb5c36f.css",
-    "static/js/main.60a8829d.js"
+    "static/js/main.5973c655.js"
   ]
 }
