@@ -1,5 +1,5 @@
 import TapperImg from "../images/productsPage/product1.png";
-import PainterImg from "../images/productsPage/product2.png";
+import PainterImg from "../images/productsPage/product2.jpg";
 
 const productList = [
     {
