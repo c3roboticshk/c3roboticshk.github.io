@@ -9,13 +9,20 @@ import AnimatedImage from "../components/AnimatedImage";
 import InspectionIntro from "../components/InspectionIntro";
 import PaintingIntro from "../components/PaintingIntro";
 
-function Home() {
+function Home(props) {
+    const topBarRef = props.topBarRef;
+
     const isMobile = useMediaQuery('(max-aspect-ratio: 1/1)');
     const inspectionRef = useRef(null);
 
     function scrollDown() {
-        if(inspectionRef.current){
-            inspectionRef.current.scrollIntoView({behavior: 'smooth', block: "start"});
+        if(inspectionRef.current && topBarRef.current) {
+            const topBarHeight = topBarRef.current.offsetHeight;
+            // Scroll to the inspection section, accounting for the top bar height
+            window.scrollTo({
+                top: inspectionRef.current.offsetTop - topBarHeight,
+                behavior: 'smooth'
+            });
         }
     }
 
@@ -29,7 +36,6 @@ function Home() {
                     justifyContent: 'center',
                     height: '40vh',
                     width: '100%',
-                    //bgcolor: "blue",
                     minWidth: '100%',
                     overflow: 'hidden',
                     '@media (min-aspect-ratio: 1/1)': {

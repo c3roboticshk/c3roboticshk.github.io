@@ -44,8 +44,8 @@ function RoboTapper(props) {
         >
             <Grid container spacing={1}
                   sx={{
-                      ml: '8rem',
-                      mr: '8rem',
+                      ml: '2rem',
+                      mr: '2rem',
                       //alignItems: 'center',
                   }}
             >
@@ -60,7 +60,7 @@ function RoboTapper(props) {
                         }}
                     >
                         <Typography
-                            variant="h4"
+                            variant="h3"
                             sx={{
                                 color: 'black',
                                 textAlign: 'left',
@@ -68,19 +68,33 @@ function RoboTapper(props) {
                                 fontWeight: 'bold',
                                 ml: '1rem',
                                 mr: 'auto',
-                                mb: '1rem'
+                                mb: '1rem',
+                                fontSize: {
+                                    xs: '2rem', // smaller on mobile
+                                    sm: '2.5rem',
+                                    md: '3rem',
+                                    lg: '3.5rem',
+                                    xl: '4rem'
+                                }
                             }}
                         >
-                            <OverlinedSpan>RoboTapper</OverlinedSpan>
+                            <OverlinedSpan>RoBosun-Tapper</OverlinedSpan>
                         </Typography>
 
                         <Typography
-                            variant="h6"
+                            variant="h5"
                             sx={{
                                 color: 'black',
                                 textAlign: 'left',
                                 fontFamily: 'Roboto-Slab',
-                                ml: '1rem'
+                                ml: '1rem',
+                                fontSize: {
+                                    xs: '1rem', // smaller on mobile
+                                    sm: '1.2rem',
+                                    md: '1.5rem',
+                                    lg: '1.8rem',
+                                    xl: '2rem'
+                                }
                             }}
                         >
                             This innovative and feature-rich cable robot is designed
@@ -102,13 +116,22 @@ function RoboTapper(props) {
                                 fontWeight: 'bold',
                                 ml: '1rem',
                                 mt: '4rem',
-                                mr: 'auto'
+                                mr: 'auto',
+                                fontSize: {
+                                    xs: '1.3rem', // smaller on mobile
+                                    sm: '1.4rem',
+                                    md: '1.7rem',
+                                    lg: '2rem',
+                                    xl: '2.2rem'
+                                }
                             }}
                         >
                             Highlights
                         </Typography>
 
-                        <List
+                        
+
+                        {/*<List
                             sx={{
                                 listStyleType: 'disc',
                                 mr: 'auto'
@@ -124,7 +147,7 @@ function RoboTapper(props) {
                                     <ListItemText primary={highlight} />
                                 </ListItem>
                             ))}
-                        </List>
+                        </List>*/}
 
                         <Typography
                             variant="h5"
@@ -135,7 +158,14 @@ function RoboTapper(props) {
                                 fontWeight: 'bold',
                                 ml: '1rem',
                                 mt: '4rem',
-                                mr: 'auto'
+                                mr: 'auto',
+                                fontSize: {
+                                    xs: '1.3rem', // smaller on mobile
+                                    sm: '1.4rem',
+                                    md: '1.7rem',
+                                    lg: '2rem',
+                                    xl: '2.2rem'
+                                }
                             }}
                         >
                             Awards
@@ -161,7 +191,7 @@ function RoboTapper(props) {
                     </Box>
 
                 </Grid>
-                <Grid size={{xs:12, sm:6, md:6, lg:6, xl:6}}>
+                {/*<Grid size={{xs:12, sm:6, md:6, lg:6, xl:6}}>
                     <img
                         src={RoboTapperImg}
                         alt="robot"
@@ -170,7 +200,7 @@ function RoboTapper(props) {
                             width: '70%',
                         }}
                     />
-                </Grid>
+                </Grid>*/}
 
                 <Grid size={{xs:12, sm:12, md:12, lg:12, xl:12}}>
                     <Box
@@ -191,6 +221,13 @@ function RoboTapper(props) {
                                 fontWeight: 'bold',
                                 ml: '1rem',
                                 mt: '4rem',
+                                fontSize: {
+                                    xs: '1.3rem', // smaller on mobile
+                                    sm: '1.4rem',
+                                    md: '1.7rem',
+                                    lg: '2rem',
+                                    xl: '2.2rem'
+                                }
                                 //mr: 'auto'
                             }}
                         >

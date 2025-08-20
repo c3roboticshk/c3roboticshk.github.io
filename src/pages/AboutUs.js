@@ -4,6 +4,7 @@ import Box from "@mui/material/Box";
 import { styled } from "@mui/material/styles";
 
 import team from "../data/aboutUsPageLeadershipTeam";
+import intro from "../data/aboutUsPageCompanyIntro";
 
 const OverlinedSpan = styled('span')(({ theme }) => ({
     display: 'inline-block',
@@ -56,31 +57,40 @@ function AboutUs() {
                             textAlign: 'left',
                             fontFamily: 'Roboto-Slab',
                             mt: '1rem',
-                            mb: '1rem'
+                            mb: '1rem',
+                            fontSize: {
+                                xs: '2rem', // smaller on mobile
+                                sm: '2.5rem',
+                                md: '3rem',
+                                lg: '3.5rem',
+                                xl: '4rem'
+                            }
                         }}
                     >
                         <OverlinedSpan>About C3</OverlinedSpan>
                     </Typography>
-                    <Typography
-                        variant="h5"
-                        sx={{
-                            color: 'grey.600',
-                            textAlign: 'left',
-                            fontFamily: 'Roboto-Slab',
-                            mt: '1rem',
-                            mb: '1rem'
-                        }}
-                    >
-                        Founded on robust university research,
-                        our company is at the forefront of providing
-                        innovative automated robotic solutions
-                        for the construction industry.
-                        By leveraging cutting-edge technology and academic excellence,
-                        we aim to revolutionize construction site operations
-                        making them safer and more efficient.
-                        Our advanced robots are designed to tackle challenging tasks,
-                        reducing risks for human workers and enhancing productivity on construction sites.
-                    </Typography>
+                    {intro.map((paragraph, index) => (
+                        <Typography
+                            key={index}
+                            variant="h5"
+                            sx={{
+                                color: 'grey.600',
+                                textAlign: {xs: 'left', md: 'justify'},
+                                fontFamily: 'Roboto-Slab',
+                                mt: '1rem',
+                                mb: '2rem',
+                                fontSize: {
+                                    xs: '1rem', // smaller on mobile
+                                    sm: '1.2rem',
+                                    md: '1.5rem',
+                                    lg: '1.8rem',
+                                    xl: '2rem'
+                                }
+                            }}
+                        >
+                            {paragraph}
+                        </Typography>
+                    ))}
                 </Grid>
 
                 <Grid size={{xs:12, sm:12, md:12, lg:12, xl:12}}>
@@ -92,7 +102,14 @@ function AboutUs() {
                             textAlign: 'left',
                             fontFamily: 'Roboto-Slab',
                             mt: '1rem',
-                            mb: '1rem'
+                            mb: '1rem',
+                            fontSize: {
+                                xs: '2rem', // smaller on mobile
+                                sm: '2.5rem',
+                                md: '3rem',
+                                lg: '3.5rem',
+                                xl: '4rem'
+                            }
                         }}
                     >
                         <OverlinedSpan>Leadership Team</OverlinedSpan>
@@ -111,7 +128,7 @@ function AboutUs() {
             >
 
                 {team.map((person) => (
-                    <Grid size={{xs:12, sm:4, md:4, lg:4, xl:4}}
+                    <Grid size={{xs:12, sm:6, md:4, lg:4, xl:4}}
                           sx={{
                               display: 'flex',
                               alignItems: 'center',
@@ -125,8 +142,17 @@ function AboutUs() {
                                 alignItems: 'center',
                                 justifyContent: 'center',
                                 flexDirection: 'column',
-                                width: '500px',
-                                height: '500px',
+                                width: {
+                                    xs: '150px', // full width on mobile
+                                    sm: '250px',
+                                    md: '300px',
+                                    lg: '400px'
+                                },
+                                height: {
+                                    xs: 'auto',
+                                    sm: '300px',
+                                    md: '400px'
+                                },
                                 overflow: 'hidden'
                             }}
                         >
@@ -134,8 +160,9 @@ function AboutUs() {
                                 src={person.image}
                                 alt=""
                                 style={{
-                                    height: '400px',
-                                    width: '400px',
+                                    height: 'auto',
+                                    width: '100%',
+                                    maxWidth: '300px',
                                     borderRadius: '50%'
                                 }}
                             />
@@ -147,7 +174,11 @@ function AboutUs() {
                                     textAlign: 'center',
                                     fontFamily: 'Roboto-Slab',
                                     mt: '1rem',
-                                    mb: 'auto',
+                                    fontSize: {
+                                        xs: '1.2rem', // smaller on mobile
+                                        sm: '1.4rem',
+                                        md: '1.5rem',
+                                    },
                                 }}
                             >
                                 {person.name}
@@ -160,7 +191,11 @@ function AboutUs() {
                                     textAlign: 'center',
                                     fontFamily: 'Roboto-Slab',
                                     mt: '1rem',
-                                    mb: 'auto'
+                                    fontSize: {
+                                        xs: '1rem', // smaller on mobile
+                                        sm: '1.1rem',
+                                        md: '1.2rem',
+                                    },
                                 }}
                             >
                                 {person.description}

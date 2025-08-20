@@ -30,30 +30,35 @@ function PaintingIntro() {
                 alignItems: 'center',
                 justifyContent: 'flex-start',
                 flexDirection: 'column',
-                //height: '100vh',
                 width: '100%',
                 bgcolor: "grey.300",
                 overflow: 'hidden',
-                //padding: '1%'
             }}
         >
             <Typography
-                variant="h4"
+                variant="h3"
                 sx={{
                     color: 'black',
                     fontWeight: 'bold',
                     textAlign: 'center',
                     fontFamily: 'Roboto-Slab',
                     mt: '3rem',
-                    mb: '1rem'
+                    mb: '1rem',
+                    fontSize: {
+                        xs: '2rem', // smaller on mobile
+                        sm: '2.5rem',
+                        md: '3rem',
+                        lg: '3.5rem',
+                        xl: '4rem'
+                    }
                 }}
             >
                 <OverlinedSpan>Outdoor Painting</OverlinedSpan>
             </Typography>
             <Grid container spacing={2}
                   sx={{
-                      ml: '4rem',
-                      mr: '4rem',
+                      ml: '1rem',
+                      mr: '1rem',
                       alignItems: 'center',
                   }}
             >
@@ -62,7 +67,7 @@ function PaintingIntro() {
                         sx={{
                             display: 'flex',
                             alignItems: 'center',
-                            mb: '1rem',
+                            mb: '4rem',
                             justifyContent: 'center'
                         }}
                     >
@@ -85,7 +90,7 @@ function PaintingIntro() {
                                 ml: '1rem'
                             }}
                         >
-                            RoboPainter
+                            RoBosun-Painter
                         </Typography>
                     </Box>
 
@@ -97,12 +102,19 @@ function PaintingIntro() {
                         }}
                     >
                         <Typography
-                            variant="h6"
+                            variant="h5"
                             sx={{
                                 color: 'black',
-                                textAlign: 'center',
+                                textAlign: 'justify',
                                 marginBottom: '4%',
-                                fontFamily: 'Roboto-Slab'
+                                fontFamily: 'Roboto-Slab',
+                                fontSize: {
+                                    xs: '1rem', // smaller on mobile
+                                    sm: '1.2rem',
+                                    md: '1.3rem',
+                                    lg: '1.4rem',
+                                    xl: '1.5rem'
+                                }
                             }}
                         >
                             Our painter robot is designed for outdoor painting,

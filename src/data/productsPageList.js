@@ -4,12 +4,12 @@ import PainterImg from "../images/productsPage/product2.jpg";
 const productList = [
     {
         url: TapperImg,
-        title: 'RoboTapper',
+        title: 'RoBosun-Tapper',
         width: '100%'
     },
     {
         url: PainterImg,
-        title: 'RoboPainter',
+        title: 'RoBosun-Painter',
         width: '100%'
     }
 ];

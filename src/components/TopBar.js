@@ -18,10 +18,11 @@ import {useState, useRef} from "react";
 import Logo from "../images/logo.png";
 
 const pages = ['Home', 'Products', 'Our Cases', 'About Us'];
-const products = ['RoboTapper', 'RoboPainter'];
+const products = ['RoBosun-Tapper', 'RoBosun-Painter'];
 
 function TopBar(props) {
     const setCurrPage = props.setCurrPage;
+    const topBarRef = props.topBarRef;
 
     const [anchorElNav, setAnchorElNav] = useState(null);
 
@@ -55,8 +56,11 @@ function TopBar(props) {
 
     return (
         <AppBar
-            position="static"
+            ref={topBarRef}
+            position="sticky"
             sx={{
+                top: 0,
+                zIndex: (theme) => theme.zIndex.appBar,
                 bgcolor: 'white',
                 height: "10vh",
                 minHeight: '10vh',

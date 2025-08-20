@@ -10,7 +10,7 @@ import tapperCases from "../data/casesPageTapperCases";
 import painterCases from "../data/casesPagePainterCases";
 
 function Cases() {
-    const [currProduct, setCurrProduct] = useState('RoboTapper');
+    const [currProduct, setCurrProduct] = useState('RoBosun-Tapper');
 
     return (
         <Box
@@ -39,9 +39,9 @@ function Cases() {
                         disableRipple
                         sx={{
                             textTransform: 'none',
-                            bgcolor: currProduct === "RoboTapper" ? 'grey.400' : 'grey.100',
+                            bgcolor: currProduct === "RoBosun-Tapper" ? 'grey.400' : 'grey.100',
                         }}
-                        onClick={() => setCurrProduct('RoboTapper')}
+                        onClick={() => setCurrProduct('RoBosun-Tapper')}
                     >
                         <Typography
                             variant="h4"
@@ -54,7 +54,7 @@ function Cases() {
                                 mb: '1rem'
                             }}
                         >
-                            RoboTapper
+                            RoBosun-Tapper
                         </Typography>
                     </Button>
                 </Grid>
@@ -64,9 +64,9 @@ function Cases() {
                         disableRipple
                         sx={{
                             textTransform: 'none',
-                            bgcolor: currProduct === "RoboPainter" ? 'grey.400' : 'grey.100',
+                            bgcolor: currProduct === "RoBosun-Painter" ? 'grey.400' : 'grey.100',
                         }}
-                        onClick={() => setCurrProduct('RoboPainter')}
+                        onClick={() => setCurrProduct('RoBosun-Painter')}
                     >
                         <Typography
                             variant="h4"
@@ -79,7 +79,7 @@ function Cases() {
                                 mb: '1rem'
                             }}
                         >
-                            RoboPainter
+                            RoBosun-Painter
                         </Typography>
                     </Button>
                 </Grid>
@@ -94,7 +94,7 @@ function Cases() {
                       width: '100%'
                   }}
             >
-                {(currProduct === "RoboTapper" ? tapperCases : painterCases).map((c) => (
+                {(currProduct === "RoBosun-Tapper" ? tapperCases : painterCases).map((c) => (
                     <Grid size={{xs:12, sm:4, md:4, lg:4, xl:4}}
                           sx={{
                               display: 'flex',
