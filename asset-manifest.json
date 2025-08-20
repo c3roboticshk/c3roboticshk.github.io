@@ -1,29 +1,39 @@
 {
   "files": {
     "main.css": "/static/css/main.5eb5c36f.css",
-    "main.js": "/static/js/main.5973c655.js",
-    "static/js/453.e214979b.chunk.js": "/static/js/453.e214979b.chunk.js",
+    "main.js": "/static/js/main.8669d4ed.js",
+    "static/js/453.1fae1006.chunk.js": "/static/js/453.1fae1006.chunk.js",
+    "static/media/painter.gif": "/static/media/painter.7341cf4ae7ec13136115.gif",
     "static/media/inspection.png": "/static/media/inspection.d8caa3e9360f80153899.png",
+    "static/media/retractable_arm.gif": "/static/media/retractable_arm.fde9120e91b19419a587.gif",
     "static/media/tseng_choi_street.png": "/static/media/tseng_choi_street.bb6ce3e318db686b6011.png",
+    "static/media/CRCE_Champion_of_Innovation.JPG": "/static/media/CRCE_Champion_of_Innovation.c858164ea618c4172ee7.JPG",
     "static/media/painting.png": "/static/media/painting.8e57fa04216e5d5211e5.png",
+    "static/media/safety.png": "/static/media/safety.1de4c995a0b171195300.png",
     "static/media/mw.png": "/static/media/mw.5b186b5a1c57b84d8207.png",
+    "static/media/ai.gif": "/static/media/ai.1039d4c86a912724405e.gif",
     "static/media/yuan_long_school.png": "/static/media/yuan_long_school.8c2f595a886188c649bb.png",
+    "static/media/IIFME_Gold_award_certificate.png": "/static/media/IIFME_Gold_award_certificate.e1a72d9ce06e310555be.png",
     "static/media/roboTapper.png": "/static/media/roboTapper.be32da330e54456f282b.png",
     "static/media/towngas.png": "/static/media/towngas.565f0ee51ccde1c9b50f.png",
     "static/media/city_hall.png": "/static/media/city_hall.170fc5f70497b1ab612e.png",
     "static/media/electric_road.png": "/static/media/electric_road.c5b8277e00be1531c491.png",
     "static/media/tapper.png": "/static/media/tapper.4387e3e8c5b525102247.png",
     "static/media/logistic_centre.png": "/static/media/logistic_centre.936c4ba3e00b3edb18c7.png",
+    "static/media/Tapper_Geneva_Silve_ Medal_Certificate.png": "/static/media/Tapper_Geneva_Silve_ Medal_Certificate.abe039f3e0ef3cd4851f.png",
     "static/media/painter.jpeg": "/static/media/painter.83a646f79951b281baff.jpeg",
     "static/media/analysis.png": "/static/media/analysis.5e91a124447242b169db.png",
     "static/media/mtr.png": "/static/media/mtr.feefd7ec86df0ffaa22c.png",
     "static/media/product1.png": "/static/media/product1.002f872e37c3906c31d9.png",
+    "static/media/modular_design.gif": "/static/media/modular_design.5859d0a51fea329044b5.gif",
     "static/media/logo.png": "/static/media/logo.9ab9cc8d4f5182fb9eef.png",
     "static/media/product2.jpg": "/static/media/product2.5c92c748ed25eceba891.jpg",
+    "static/media/roboPainter.jpg": "/static/media/roboPainter.5c92c748ed25eceba891.jpg",
     "static/media/pok_fu_lam.png": "/static/media/pok_fu_lam.5fbfcf5e7f05119663dc.png",
     "static/media/darwin.png": "/static/media/darwin.785790c55a105d55b57f.png",
     "static/media/jimmy.png": "/static/media/jimmy.f9e110ae29f6b9c90b4f.png",
     "static/media/anthony.png": "/static/media/anthony.975f2e237744bcef2fb6.png",
+    "static/media/CIC_Award Certificate.jpg": "/static/media/CIC_Award Certificate.b88c703fbd2f8626b52f.jpg",
     "static/media/liven_house.png": "/static/media/liven_house.ee52664d7a7e9b1e41b6.png",
     "static/media/squash_centre.png": "/static/media/squash_centre.d1a34328d12ff4ac1864.png",
     "static/media/cls_school.png": "/static/media/cls_school.116c6918870f49be2d99.png",
@@ -37,11 +47,11 @@
     "static/media/painter_icon.png": "/static/media/painter_icon.d605a22d2ec90fd23fa9.png",
     "index.html": "/index.html",
     "main.5eb5c36f.css.map": "/static/css/main.5eb5c36f.css.map",
-    "main.5973c655.js.map": "/static/js/main.5973c655.js.map",
-    "453.e214979b.chunk.js.map": "/static/js/453.e214979b.chunk.js.map"
+    "main.8669d4ed.js.map": "/static/js/main.8669d4ed.js.map",
+    "453.1fae1006.chunk.js.map": "/static/js/453.1fae1006.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5eb5c36f.css",
-    "static/js/main.5973c655.js"
+    "static/js/main.8669d4ed.js"
   ]
 }
