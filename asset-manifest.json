@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5eb5c36f.css",
-    "main.js": "/static/js/main.8669d4ed.js",
+    "main.js": "/static/js/main.0243c3dd.js",
     "static/js/453.1fae1006.chunk.js": "/static/js/453.1fae1006.chunk.js",
     "static/media/painter.gif": "/static/media/painter.7341cf4ae7ec13136115.gif",
     "static/media/inspection.png": "/static/media/inspection.d8caa3e9360f80153899.png",
@@ -11,7 +11,7 @@
     "static/media/painting.png": "/static/media/painting.8e57fa04216e5d5211e5.png",
     "static/media/safety.png": "/static/media/safety.1de4c995a0b171195300.png",
     "static/media/mw.png": "/static/media/mw.5b186b5a1c57b84d8207.png",
-    "static/media/ai.gif": "/static/media/ai.1039d4c86a912724405e.gif",
+    "static/media/ai.gif": "/static/media/ai.e3c63cb0a79ee4a63991.gif",
     "static/media/yuan_long_school.png": "/static/media/yuan_long_school.8c2f595a886188c649bb.png",
     "static/media/IIFME_Gold_award_certificate.png": "/static/media/IIFME_Gold_award_certificate.e1a72d9ce06e310555be.png",
     "static/media/roboTapper.png": "/static/media/roboTapper.be32da330e54456f282b.png",
@@ -27,6 +27,7 @@
     "static/media/product1.png": "/static/media/product1.002f872e37c3906c31d9.png",
     "static/media/modular_design.gif": "/static/media/modular_design.5859d0a51fea329044b5.gif",
     "static/media/logo.png": "/static/media/logo.9ab9cc8d4f5182fb9eef.png",
+    "static/media/stage.png": "/static/media/stage.9d96b7befebb6be880e6.png",
     "static/media/product2.jpg": "/static/media/product2.5c92c748ed25eceba891.jpg",
     "static/media/roboPainter.jpg": "/static/media/roboPainter.5c92c748ed25eceba891.jpg",
     "static/media/pok_fu_lam.png": "/static/media/pok_fu_lam.5fbfcf5e7f05119663dc.png",
@@ -47,11 +48,11 @@
     "static/media/painter_icon.png": "/static/media/painter_icon.d605a22d2ec90fd23fa9.png",
     "index.html": "/index.html",
     "main.5eb5c36f.css.map": "/static/css/main.5eb5c36f.css.map",
-    "main.8669d4ed.js.map": "/static/js/main.8669d4ed.js.map",
+    "main.0243c3dd.js.map": "/static/js/main.0243c3dd.js.map",
     "453.1fae1006.chunk.js.map": "/static/js/453.1fae1006.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5eb5c36f.css",
-    "static/js/main.8669d4ed.js"
+    "static/js/main.0243c3dd.js"
   ]
 }
