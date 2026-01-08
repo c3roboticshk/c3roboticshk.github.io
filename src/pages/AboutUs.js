@@ -36,15 +36,15 @@ function AboutUs() {
             }}
         >
             <Grid container spacing={2}
-                  sx={{
-                      mt: '1rem',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      height: '100%',
-                      width: '60%'
-                  }}
+                sx={{
+                    mt: '1rem',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    height: '100%',
+                    width: '79%'
+                }}
             >
-                <Grid size={{xs:12, sm:12, md:12, lg:12, xl:12}}
+                <Grid size={{ xs: 12, sm: 12, md: 12, lg: 12, xl: 12 }}
                     sx={{
                         mb: '3rem',
                     }}
@@ -69,31 +69,43 @@ function AboutUs() {
                     >
                         <OverlinedSpan>About C3</OverlinedSpan>
                     </Typography>
-                    {intro.map((paragraph, index) => (
-                        <Typography
-                            key={index}
-                            variant="h5"
-                            sx={{
-                                color: 'grey.600',
-                                textAlign: {xs: 'left', md: 'justify'},
-                                fontFamily: 'Roboto-Slab',
-                                mt: '1rem',
-                                mb: '2rem',
-                                fontSize: {
-                                    xs: '1rem', // smaller on mobile
-                                    sm: '1.2rem',
-                                    md: '1.5rem',
-                                    lg: '1.8rem',
-                                    xl: '2rem'
-                                }
-                            }}
-                        >
-                            {paragraph}
-                        </Typography>
+                    {intro.map((item, index) => (
+                        item.type === "paragraph" ?
+                            <Typography
+                                key={index}
+                                variant="h5"
+                                sx={{
+                                    color: 'grey.600',
+                                    textAlign: { xs: 'justify', md: 'justify' },
+                                    fontFamily: 'Roboto-Slab',
+                                    mt: '1rem',
+                                    mb: '2rem',
+                                    fontSize: {
+                                        xs: '1rem', // smaller on mobile
+                                        sm: '1.2rem',
+                                        md: '1.5rem',
+                                        lg: '1.8rem',
+                                        xl: '2rem'
+                                    }
+                                }}
+                            >
+                                {item.content}
+                            </Typography>
+                            :
+                            <img
+                                key={index}
+                                src={item.src}
+                                alt={item.alt}
+                                style={{
+                                    height: 'auto',
+                                    width: '100%',
+                                    maxWidth: '600px'
+                                }}
+                            />
                     ))}
                 </Grid>
 
-                <Grid size={{xs:12, sm:12, md:12, lg:12, xl:12}}>
+                <Grid size={{ xs: 12, sm: 12, md: 12, lg: 12, xl: 12 }}>
                     <Typography
                         variant="h3"
                         sx={{
@@ -118,23 +130,23 @@ function AboutUs() {
             </Grid>
 
             <Grid container spacing={2}
-                  sx={{
-                      mt: '1rem',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      height: '100%',
-                      width: '100%'
-                  }}
+                sx={{
+                    mt: '1rem',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    height: '100%',
+                    width: '100%'
+                }}
             >
 
                 {team.map((person) => (
-                    <Grid size={{xs:12, sm:6, md:4, lg:4, xl:4}}
-                          sx={{
-                              display: 'flex',
-                              alignItems: 'center',
-                              justifyContent: 'center',
-                          }}
-                          key={person.name}
+                    <Grid size={{ xs: 12, sm: 6, md: 4, lg: 4, xl: 4 }}
+                        sx={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                        }}
+                        key={person.name}
                     >
                         <Box
                             sx={{

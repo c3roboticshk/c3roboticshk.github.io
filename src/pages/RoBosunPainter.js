@@ -46,10 +46,10 @@ function RoBosunPainter() {
                         alignItems: 'center',
                         justifyContent: 'center',
                         height: '100%',
-                        width: '60%'
+                        width: '75%'
                     }}
                 >
-                    <Grid size={{xs:12, sm:12, md:12, lg:12, xl:12}}
+                    <Grid size={{ xs: 12, sm: 12, md: 12, lg: 12, xl: 12 }}
                         sx={{
                             mb: '3rem',
                         }}
@@ -148,7 +148,7 @@ function RoBosunPainter() {
                         spacing={4}
                         justifyContent="center"
                         alignItems="center"
-                        sx={{ columnGap: {md: "4rem", lg: "8rem"} }}
+                        sx={{ columnGap: { md: "4rem", lg: "8rem" } }}
                     >
                         <Grid
                             item
@@ -160,9 +160,9 @@ function RoBosunPainter() {
                                 src={highlight.image}
                                 alt={highlight.imageAlt}
                                 style={{
-                                width: '100%',
-                                maxWidth: '400px',
-                                height: 'auto',
+                                    width: '100%',
+                                    maxWidth: '400px',
+                                    height: 'auto',
                                 }}
                             />
                         </Grid>
@@ -209,15 +209,15 @@ function RoBosunPainter() {
                 }}
             >
                 <Grid container spacing={1}
-                        sx={{
-                            ml: '2rem',
-                            mr: '2rem',
-                            //alignItems: 'center',
-                            justifyContent: 'center',
-                        }}
+                    sx={{
+                        ml: '2rem',
+                        mr: '2rem',
+                        //alignItems: 'center',
+                        justifyContent: 'center',
+                    }}
                 >
 
-                    <Grid size={{xs:12, sm:12, md:12, lg:12, xl:12}}>
+                    <Grid size={{ xs: 12, sm: 12, md: 12, lg: 12, xl: 12 }}>
                         <Box
                             sx={{
                                 alignItems: 'center',
@@ -251,7 +251,7 @@ function RoBosunPainter() {
 
                     {awards.map((award, index) => (
                         <Grid
-                            size={{xs:12, sm:3, md:3, lg:3, xl:3}}
+                            size={{ xs: 12, sm: 3, md: 3, lg: 3, xl: 3 }}
                             key={index}
                         >
                             <Card sx={{ maxWidth: 345, mx: 'auto' }}>
@@ -263,14 +263,14 @@ function RoBosunPainter() {
                                 />
                                 <CardContent>
                                     <Typography gutterBottom variant="h6" component="div">
-                                    {award.title}
+                                        {award.title}
                                     </Typography>
                                 </CardContent>
                             </Card>
                         </Grid>
                     ))}
 
-                    <Grid size={{xs:12, sm:12, md:12, lg:12, xl:12}}>
+                    <Grid size={{ xs: 12, sm: 12, md: 12, lg: 12, xl: 12 }}>
                         <Box
                             sx={{
                                 display: 'flex',
@@ -307,7 +307,7 @@ function RoBosunPainter() {
 
                     {painterCases.map((painterCase, index) => (
                         <Grid
-                            size={{xs:12, sm:3, md:3, lg:3, xl:3}}
+                            size={{ xs: 12, sm: 3, md: 3, lg: 3, xl: 3 }}
                             key={index}
                         >
                             <img

@@ -195,7 +195,7 @@ function Footer() {
                     }
                 }}
             >
-                © 2025 C3 Construction Robotics Limited. All Rights Reserved.
+                © 2026 C3 Construction Robotics Limited. All Rights Reserved.
             </Typography>
         </Box>
     );

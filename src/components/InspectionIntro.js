@@ -7,7 +7,7 @@ import AIIcon from '../images/homePage/ai_icon.png';
 
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid2";
-import {styled} from "@mui/material/styles";
+import { styled } from "@mui/material/styles";
 
 const OverlinedSpan = styled('span')(({ theme }) => ({
     display: 'inline-block',
@@ -66,12 +66,12 @@ function InspectionIntro(props) {
                     alignItems: 'center',
                 }}
             >
-                <Grid size={{xs:12, sm:4, md:4, lg:4, xl:4}}>
+                <Grid size={{ xs: 12, sm: 4, md: 4, lg: 4, xl: 4 }}>
                     <Box
                         sx={{
                             display: 'flex',
                             alignItems: 'center',
-                            mb: '4rem',
+                            mb: '2rem',
                             justifyContent: 'center'
                         }}
                     >
@@ -103,6 +103,7 @@ function InspectionIntro(props) {
                             display: 'flex',
                             alignItems: 'center',
                             height: '100%',
+                            margin: '1rem'
                         }}
                     >
                         <Typography
@@ -121,15 +122,12 @@ function InspectionIntro(props) {
                                 }
                             }}
                         >
-                            Our advanced facade inspection robots are designed to
-                            ensure the safety and integrity of building exteriors.
-                            By utilizing cutting-edge technology,
-                            our robots can perform detailed inspections,
-                            identifying potential issues before they become major problems.
+                            Our Tapper inspects and helps ensure the safety and integrity of building facades.
+                            It can identify defects or potential risks in walls using an innovative contact-based tapping inspection technology.
                         </Typography>
                     </Box>
                 </Grid>
-                <Grid size={{xs:12, sm:8, md:8, lg:8, xl:8}}>
+                <Grid size={{ xs: 12, sm: 8, md: 8, lg: 8, xl: 8 }}>
                     <img
                         src={InspectionImg}
                         alt="inspection"
@@ -137,10 +135,10 @@ function InspectionIntro(props) {
                             height: 'auto',
                             width: '100%',
                         }}
-                    />                    
+                    />
                 </Grid>
 
-                <Grid size={{xs:0, sm:8, md:8, lg:8, xl:8}}>
+                <Grid size={{ xs: 0, sm: 8, md: 8, lg: 8, xl: 8 }}>
                     <img
                         src={AnalysisImg}
                         alt="inspection"
@@ -151,12 +149,12 @@ function InspectionIntro(props) {
                     />
                 </Grid>
 
-                <Grid size={{xs:12, sm:4, md:4, lg:4, xl:4}}>
+                <Grid size={{ xs: 12, sm: 4, md: 4, lg: 4, xl: 4 }}>
                     <Box
                         sx={{
                             display: 'flex',
                             alignItems: 'center',
-                            mb: '4rem',
+                            mb: '2rem',
                             justifyContent: 'center'
                         }}
                     >
@@ -188,6 +186,7 @@ function InspectionIntro(props) {
                             display: 'flex',
                             alignItems: 'center',
                             height: '100%',
+                            margin: '1rem'
                         }}
                     >
                         <Typography
@@ -206,15 +205,13 @@ function InspectionIntro(props) {
                                 }
                             }}
                         >
-                            Our advanced sound analysis system leverages AI to meticulously analyze audio data,
-                            identifying defect areas with precision.
-                            The system automatically generates comprehensive reports,
-                            ensuring swift and efficient defect management.
+                            Our advanced sound analysis system uses AI to meticulously analyze audio data and identify defective areas with precision.
+                            It can then automatically generate comprehensive inspection reports, ensuring swift and efficient defect management.
                         </Typography>
                     </Box>
                 </Grid>
 
-                <Grid size={{xs:12, sm:0, md:0, lg:0, xl:0}}>
+                <Grid size={{ xs: 12, sm: 0, md: 0, lg: 0, xl: 0 }}>
                     <img
                         src={AnalysisImg}
                         alt="inspection"

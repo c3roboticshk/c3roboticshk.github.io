@@ -5,7 +5,7 @@ import PainterIcon from '../images/homePage/painter_icon.png';
 
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid2";
-import {styled} from "@mui/material/styles";
+import { styled } from "@mui/material/styles";
 
 const OverlinedSpan = styled('span')(({ theme }) => ({
     display: 'inline-block',
@@ -56,18 +56,18 @@ function PaintingIntro() {
                 <OverlinedSpan>Outdoor Painting</OverlinedSpan>
             </Typography>
             <Grid container spacing={2}
-                  sx={{
-                      ml: '1rem',
-                      mr: '1rem',
-                      alignItems: 'center',
-                  }}
+                sx={{
+                    ml: '1rem',
+                    mr: '1rem',
+                    alignItems: 'center',
+                }}
             >
-                <Grid size={{xs:12, sm:4, md:4, lg:4, xl:4}}>
+                <Grid size={{ xs: 12, sm: 4, md: 4, lg: 4, xl: 4 }}>
                     <Box
                         sx={{
                             display: 'flex',
                             alignItems: 'center',
-                            mb: '4rem',
+                            mb: '2rem',
                             justifyContent: 'center'
                         }}
                     >
@@ -99,6 +99,7 @@ function PaintingIntro() {
                             display: 'flex',
                             alignItems: 'center',
                             height: '100%',
+                            margin: '1rem'
                         }}
                     >
                         <Typography
@@ -117,14 +118,11 @@ function PaintingIntro() {
                                 }
                             }}
                         >
-                            Our painter robot is designed for outdoor painting,
-                            offering unmatched efficiency and precision.
-                            Leveraging advanced technology, it outperforms human workers
-                            by covering larger areas in less time and reducing the risk of accidents for workers.
+                            Our painter robot is an automated painting system that efficiently and seamlessly sprays the exterior surfaces of both indoor and outdoor buildings with high quality, significantly reducing costs while greatly enhancing the safety of high‑rise operations.
                         </Typography>
                     </Box>
                 </Grid>
-                <Grid size={{xs:12, sm:8, md:8, lg:8, xl:8}}>
+                <Grid size={{ xs: 12, sm: 8, md: 8, lg: 8, xl: 8 }}>
                     <img
                         src={PaintingImg}
                         alt="inspection"

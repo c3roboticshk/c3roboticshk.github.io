@@ -35,11 +35,11 @@ const tapperCases = [
         image: ElectricRoad
     },
     {
-        location: "Chai Wan Government Logistic Centre",
+        location: "Chai Wan Government Logistics Centre",
         image: LogisticCentre
     },
     {
-        location: "Yuan Long Public Secondary School",
+        location: "Yuen Long Public Secondary School",
         image: YuanLongSchool
     },
     {

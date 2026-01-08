@@ -1,7 +1,7 @@
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid2";
 import Box from "@mui/material/Box";
-import  { styled } from "@mui/material/styles";
+import { styled } from "@mui/material/styles";
 import ButtonBase from "@mui/material/ButtonBase";
 
 import prodictList from "../data/productsPageList";
@@ -87,22 +87,22 @@ function Products(props) {
             }}
         >
             <Grid container spacing={2}
-                  sx={{
-                      mt: '1rem',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      height: '100%',
-                      width: '100%'
-                  }}
+                sx={{
+                    mt: '1rem',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    height: '100%',
+                    width: '100%'
+                }}
             >
                 {prodictList.map((product) => (
-                    <Grid size={{xs:12, sm:3, md:3, lg:3, xl:3}}
-                          sx={{
-                              display: 'flex',
-                              alignItems: 'center',
-                              justifyContent: 'center',
-                          }}
-                          key={product.title}
+                    <Grid size={{ xs: 12, sm: 3, md: 3, lg: 3, xl: 3 }}
+                        sx={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                        }}
+                        key={product.title}
                     >
                         <Box
                             sx={{
@@ -128,7 +128,7 @@ function Products(props) {
                                 <Image>
                                     <Typography
                                         component="span"
-                                        variant="subtitle1"
+                                        variant="h4"
                                         color="inherit"
                                         sx={(theme) => ({
                                             position: 'relative',
